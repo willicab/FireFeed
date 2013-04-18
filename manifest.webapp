@@ -1,0 +1,32 @@
+{
+  "name": "Firefeed",
+  "description": "A simple feed reader",
+  "launch_path": "/firefeed/main.html",
+  "developer": {
+    "name": "William Cabrera",
+    "url": "http://willicab.com.ve"
+  },
+  "permissions": [
+
+  ],
+  "locales": {
+    "en-US": {
+      "description": "The feeds reader"
+    },
+    "es": {
+      "description": "El lector de feeds"
+    }
+  },
+  "default_locale": "es",
+  "icons": {
+    "32": "/firefeed/img/icon-32.png",
+    "60": "/firefeed/img/icon-60.png",
+    "128": "/firefeed/img/icon-128.png"
+  },
+  "fullscreen": "true",
+  "permissions": {
+    "storage": {
+      "description": "Required for storage app in device"
+    }
+  }
+}

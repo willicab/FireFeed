@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <header>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-language" content="en" />
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/prototypes.js"></script>
+        <script src="js/format.js"></script>
+        <script src="js/subscriptions.js"></script>
+        <script src="js/general.js"></script>
+        <script src="js/categories.js"></script>
+        <script src="js/settingsCategories.js"></script>
+        <link rel="stylesheet" href="css/styles.css" />
+        <style>
+            body {
+                color: #fff;
+                background-color: #EBBD26;
+            }
+        </style>
+    </header>
+    <body>
+        <div id="dialog">
+            <div id="optionsCategories">
+                <a class="btnClose" href="#"><img src="img/btnClose.png" /></a>
+                <span id="category"></span>
+                <ul id="optCategories" class="menu">
+                    <li id="rename">Rename Category</li>
+                    <li id="remove">Remove Category</li>
+                </ul>
+            </div>
+            <div id="renameCategory">
+                Rename Category
+                <input type="text" name="txtCategory" id="txtCategory" /><br /><br />
+                <input type="button" id="btnRename" value="Rename" />
+                <input type="button" class="btnCancel" value="Cancel" />
+            </div>
+            <div id="removeCategory">
+                Move subscriptions to...
+                <select id="selectCategories"></select><br /><br />
+                <input type="button" id="btnRemove" value="Remove" />
+                <input type="button" class="btnCancel" value="Cancel" />
+            </div>
+        </div>
+        <div id="toolBar">
+            <h1>Categories</h1>
+            <a href="main.html">
+                <img src="img/prev.png" /><img src="img/icon-32.png" />
+            </a>
+        </div>
+        <div id="content">
+            <ul id="listCategories" class="menu">
+            </ul>
+        </div>
+    </body>
+</html>

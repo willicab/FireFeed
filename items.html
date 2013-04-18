@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <header>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-language" content="en" />
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/prototypes.js"></script>
+        <script src="js/format.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/subscriptions.js"></script>
+        <script src="js/general.js"></script>
+        <script src="js/categories.js"></script>
+        <script src="js/items.js"></script>
+        <script src="js/mainItems.js"></script>
+        <link rel="stylesheet" href="css/styles.css" />
+    </header>
+    <body>
+        <div id="dialog">
+            <div id="newSubscription">
+                Insert the feed URL<br /><br />
+                <input type="text" name="txtSubscription" id="txtSubscription" /><br />
+                <select id="selectCategories"></select><br /><br />
+                <input type="button" id="btnSubscription" value="Add" />
+                <input type="button" class="btnCancel" value="Cancel" />
+            </div>
+            <div id="newCategory">
+                Insert the New Category<br /><br />
+                <input type="text" name="txtCategory" id="txtCategory" /><br /><br />
+                <input type="button" id="btnCategory" value="Add" />
+                <input type="button" class="btnCancel" value="Cancel" />
+            </div>
+        </div>
+        <div id="menuLateral">
+            <ul>
+                <li><a id="optNewCategory" href="#">Add Category</a></li>
+                <li><a id="optNewSubscription" href="#">Add Subscription</a></li>
+                <li><a id="optSettings" href="settings.html">Settings</a></li>
+                <li><a id="optAbout" href="about.html">About...</a></li>
+            </ul>
+        </div>
+        <div id="toolBar">
+            <a id="back" href="#">
+                <img src="img/prev.png" /><img src="img/icon-32.png" />
+            </a>
+            <a id="btnFav"> </a>
+            <a id="btnUp"> </a>
+            <a id="btnDown"> </a>
+            <a id="btnMenu"> </a>
+        </div>
+        <div id="content">
+        </div>
+    </body>
+</html>
